@@ -30,14 +30,8 @@ class String
 
   def count_sentences
     result = 0
-    if self.ends_with?(".")
+    if self.ends_with?(".") || self.ends_with?("!") || self.ends_with?("?")
       result += 1
-    elsif self.ends_with?("!")
-      result += 1
-    elsif self.ends_with?("?")
-      result += 1
-    else
-      result += 0
     end
     result
   end
