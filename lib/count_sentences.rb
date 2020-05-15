@@ -40,5 +40,5 @@ class String
       result += 0
     end
     result
-
+  end
 end
