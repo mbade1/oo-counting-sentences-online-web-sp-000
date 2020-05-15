@@ -30,7 +30,7 @@ class String
 
   def count_sentences
     splitted = self.split(/[.!?]/)
-    no_repeats = splitted.reject {|x| x == []}
+    no_repeats = splitted.reject {|x| x.empty?}
     no_repeats.size
   #   result = 0
   #   if self.end_with?(".") || self.end_with?("!") || self.end_with?("?")
