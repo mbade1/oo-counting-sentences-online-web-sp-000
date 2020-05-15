@@ -34,7 +34,7 @@ class String
 
       splitted = self.split(/[.!?]/)
 
-      result = splitted.count - 1
+      result = splitted.count 
     end
     result
   end
