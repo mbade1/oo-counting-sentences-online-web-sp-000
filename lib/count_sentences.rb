@@ -37,6 +37,7 @@ class String
         if splitted[x] == []
           result - 1
         end
+      end
 
       result = splitted.count
     end
