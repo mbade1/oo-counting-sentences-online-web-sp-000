@@ -31,8 +31,9 @@ class String
   def count_sentences
     result = 0
     if self.end_with?(".") || self.end_with?("!") || self.end_with?("?")
-      binding.pry
+      
       splitted = self.split(".", "!", "?")
+      binding.pry
       result = splitted.count
     end
     result
