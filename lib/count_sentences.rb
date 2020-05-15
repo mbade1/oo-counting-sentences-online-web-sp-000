@@ -34,7 +34,7 @@ class String
     no_repeats.size
   #   result = 0
   #   if self.end_with?(".") || self.end_with?("!") || self.end_with?("?")
-  # 
+  #
   #     splitted = self.split(/[.!?]/)
   #     result = splitted.count
   #   end
