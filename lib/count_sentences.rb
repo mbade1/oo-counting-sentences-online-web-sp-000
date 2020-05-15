@@ -29,12 +29,15 @@ class String
   end
 
   def count_sentences
-    result = 0
-    if self.end_with?(".") || self.end_with?("!") || self.end_with?("?")
-
-      splitted = self.split(/[.!?]/)
-      result = splitted.count
-    end
-    result
-  end
+    splitted = self.split(/[.!?]/)
+    no_repeats = splitted.reject {|x| x == []}
+    no_repeats.size
+  #   result = 0
+  #   if self.end_with?(".") || self.end_with?("!") || self.end_with?("?")
+  # 
+  #     splitted = self.split(/[.!?]/)
+  #     result = splitted.count
+  #   end
+  #   result
+  # end
 end
