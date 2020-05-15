@@ -36,9 +36,9 @@ class String
       result += 1
     elsif self.ends_with?("?")
       result += 1
-    else 
+    else
       result += 0
     end
     result
-      
+
 end
