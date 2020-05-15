@@ -42,14 +42,14 @@ class String
 end
   #   result = 0
   #   if self.end_with?(".") || self.end_with?("!") || self.end_with?("?")
-  # 
+  #
   #     splitted = self.split(/[.!?]/)
   #     splitted.each do |x|
   #       if splitted[x] == []
   #         result - 1
   #       end
   #     end
-  # 
+  #
   #     result = splitted.count
   #   end
   #   result
