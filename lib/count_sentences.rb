@@ -41,3 +41,4 @@ class String
   #   result
   # end
 end
+end
