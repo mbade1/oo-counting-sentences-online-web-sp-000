@@ -29,11 +29,16 @@ class String
   end
 
   def count_sentences
-    result = ""
-    if self.end_with?("/[.!?]/")
-      split_sentence = self.split(/[.!?]/)
-      result = split_sentence.count
+    result = 0
+    if self.ends_with?(".")
+      result += 1
+    elsif self.ends_with?("!")
+      result += 1
+    elsif self.ends_with?("?")
+      result += 1
+    else 
+      result += 0
     end
     result
-  end
+      
 end
