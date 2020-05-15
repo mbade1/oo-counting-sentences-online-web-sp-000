@@ -32,6 +32,5 @@ class String
     splitted = self.split(/[.!?]/)
     no_repeats = splitted.reject {|x| x.empty?}
     no_repeats.size
-
-end
+  end
 end
