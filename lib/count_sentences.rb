@@ -33,6 +33,10 @@ class String
     if self.end_with?(".") || self.end_with?("!") || self.end_with?("?")
 
       splitted = self.split(/[.!?]/)
+      splitted.each do |x|
+        if splitted[x] == []
+          result - 1
+        end
 
       result = splitted.count
     end
