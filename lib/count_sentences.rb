@@ -29,7 +29,7 @@ class String
   end
 
   def count_sentences
-    
+
   #   result = 0
   #   if self.end_with?(".") || self.end_with?("!") || self.end_with?("?")
   #
