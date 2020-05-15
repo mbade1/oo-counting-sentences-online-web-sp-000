@@ -30,7 +30,7 @@ class String
 
   def count_sentences
     result = ""
-    if self.end_with?(/[.!?]/)
+    if self.end_with?("/[.!?]/")
       split_sentence = self.split(/[.!?]/)
       result = split_sentence.count
     end
