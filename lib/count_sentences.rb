@@ -32,13 +32,6 @@ class String
     splitted = self.split(/[.!?]/)
     no_repeats = splitted.reject {|x| x.empty?}
     no_repeats.size
-  #   result = 0
-  #   if self.end_with?(".") || self.end_with?("!") || self.end_with?("?")
-  #
-  #     splitted = self.split(/[.!?]/)
-  #     result = splitted.count
-  #   end
-  #   result
-  # end
+
 end
 end
