@@ -34,6 +34,6 @@ class String
       split_sentence = self.split(/[.!?]/)
       result = split_sentence.count
     end
-
+    result
   end
 end
