@@ -42,4 +42,4 @@ class String
     end
     result
   end
-end
+
